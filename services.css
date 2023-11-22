@@ -1,0 +1,96 @@
+/* services.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #424242;
+    color: #fff;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+main {
+    color: #fff;
+    padding: 20px;
+    margin-top: 115px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: #61dafb;
+}
+
+p {
+    color: #a4acc4;
+}
+
+/* Estilos específicos para los servicios */
+.servicio-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 500px; /* Ajusta el ancho según tus preferencias */
+    margin: 0 auto; /* Centra el elemento */
+}
+
+
+.servicio {
+    background-color: #1f1f1f;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 700px; /* Ajusta el ancho según tu preferencia */
+    text-align: start;
+    transition: background-color 0.3s;
+}
+
+.servicio:hover {
+    background-color: #303030;
+}
+
+/* Estilos de las redes sociales */
+.redes-sociales {
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.redes-sociales a {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 0px;
+    font-size: 20px; /* Ajusta el tamaño de los íconos */
+}
+.redes-sociales a:hover {
+    color: #0056b3 /* Cambia el color al pasar el mouse */
+}
+/* Estilo de los íconos de Font Awesome */
+.fab {
+    vertical-align: middle;
+}
+.far {
+    vertical-align: middle;
+}
+
+
